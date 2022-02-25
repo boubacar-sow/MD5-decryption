@@ -36,7 +36,7 @@ def decrypt(alphabet, char* hash_to_decrypt, n):
             return a_word
     return ""
 
-# noinspection PyUnreachableCode
+
 def main(int n, char* hash_to_decrypt):
     start = time.time()
     alphabet = list("abcdefghijklmnopqrstuvwxyz0123456789!@#$%&*")
